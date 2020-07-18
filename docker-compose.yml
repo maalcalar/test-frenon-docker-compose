@@ -1,0 +1,12 @@
+version: "3.0"
+services:
+  postgres:
+    image: "miguelalcalarios/test-frenon-postgres"
+  redis:
+    image: "redis"
+  backend:
+    image: "miguelalcalarios/test-frenon-node"
+    ports:
+      - "3000:3000"
+    command:
+      "npm run start"
