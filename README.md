@@ -22,7 +22,11 @@ Se puede ver el código del backend en https://github.com/maalcalar/test-frenon
 ## Pruebas
 
 GET     localhost:3000/api/usuario/listar/:limit
+
 GET     localhost:3000/api/usuario/:id
+
 POST    localhost:3000/api/usuario
+
 PUT     localhost:3000/api/usuario/:id
+
 DELETE  localhost:3000/api/usuario/:id
